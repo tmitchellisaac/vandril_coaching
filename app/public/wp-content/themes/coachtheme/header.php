@@ -20,10 +20,11 @@
   <?php
   wp_nav_menu(
     array(
-      'theme-location' => 'top-menu',
+      'theme_location' => 'top-menu',
+      'menu_class' => 'top-bar'
     )
   );
   ?>
 </div>
 
-</header>
+</header> 

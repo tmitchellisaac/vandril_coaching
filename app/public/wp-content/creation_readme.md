@@ -404,7 +404,7 @@ header .top-bar li:last-child a {
   padding-right:0;
 }
 ```
-  - so, at this point you should have four header class styles
+  - so, at this point you should have five header class styles
 
   - Now we might want to center the link on the in the menu/navbar
   - so, we need to target the right html class which, this time, is the `container` class
@@ -442,4 +442,145 @@ header .top-bar li:last-child a {
   }
 ```
 
+  - NOTE: there are a lot of different stylings you can do to make your menus look good
+  - basically you should go into the html and look at the classes and assign based on those
+  - just takes practice
+  - here is the result of one option, this is the full `main.css` file:
+```
+header {
+  background:#111;
+  width:100%;
+  height:100px;
+}
+
+.page-wrap {
+  padding:2rem 0;
+}
+
+header .menu {
+  list-style-type:none; /* will remove bullet points */
+  margin:0;
+  padding:0;
+  display:flex; /* makes the links side-by-side */
+}
+
+header .menu li a {
+  padding:0.25rem 1rem;      /*.25 at the top 1 on the sides*/
+  color:#fff;     /* white color to links */
+}
+
+header .menu li {
+  position:relative;
+}
+
+header .menu li:first-child a {
+  padding-left:0;
+}
+
+header .menu li:last-child a {
+  padding-right:0;
+}
+
+header .menu li .sub-menu {
+  display:none;  /* makes it so the "Our Team" doesn't show */
+  position:absolute;
+  top:100%;
+  left: 50%; /* Position the left edge of the sub-menu at the center of the parent */
+  transform: translateX(-50%); /* Shift the sub-menu back to the left by 50% of its width */
+  background:#fff;
+  box-shadow:1px 1px 10px rgba(0,0,0,0.1); 
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  width:150px;
+  border-radius:0.5rem;
+  z-index:999;
+}
+
+header .menu li .sub-menu a {
+  color:green;
+  padding:.25rem;
+  text-align:center; 
+  display:block; /* changes it from a list item to a block */
+  text-decoration:none; /* removes the underline */
+}
+
+
+header .menu li .sub-menu .menu-item:hover a {
+  color:#111;
+}
+
+header .menu .menu-item-has-children:hover .sub-menu{
+  display:block; /* with the hover option it will only display when user hovers cursor */
+}
+
+header .container {
+  display:flex;
+  justify-content:center; /* will align horizontally */ 
+  align-items: center;  /* will align vertically */
+  height:100%;
+}
+
+```
+
+### Create a Footer Menu Location
+  - we can copy the text from the header 
+```
+<header>
+<div class="container">
+  <?php
+  wp_nav_menu(
+    array(
+      'theme-location' => 'top-menu',
+    )
+  );
+  ?>
+</div>
+
+</header> 
+```
+  - paste it in the `footer.php`, and change it appropriately
+```
+<footer>
+<div class="container">
+  <?php
+  wp_nav_menu(
+    array(
+      'theme-location' => 'footer-menu',
+    )
+  );
+  ?>
+</div>
+
+</footer> 
+```
+  - Next, we need to register the menu in our `functions.php` file
+```
+// Menus
+register_nav_menus(     //registers some menus
+  array(
+    'top-menu' => 'Top Menu Location',
+    'mobile-menu' => 'Mobile Menu Location',
+    'footer-menu' => 'Footer Menu Location'
+
+  )
+
+);
+```
+  - now, you can go into the Dashboard and create a new menu
+  - assign your new location to the "Footer Menu Location"
+  - it should work now and display on your website
+  - you can, of course, add additional styling based on your needs
+
+
+
+## Blog Posts
+
+### Setting it up
+  - create a "Post" from the dashboard
+  - go to our menu and assign the post/blog to the Top Menu
+  - it should be displayed on our Top Menu now
+  - Next, copy the code from `page.php` into the `single.php` file
+  - This logic will allow the contect to be displayed and also the header and footer
+  - Now, do the same for the `archive.php`
   

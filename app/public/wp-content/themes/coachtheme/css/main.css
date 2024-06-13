@@ -8,24 +8,65 @@ header {
   padding:2rem 0;
 }
 
-header .menu {
+header .top-bar {
   list-style-type:none; /* will remove bullet points */
   margin:0;
-  padding:;
+  padding:0;
   display:flex; /* makes the links side-by-side */
 }
 
-header .menu li a {
-  padding:0.25rem 2rem;      /*.25 at the top 1 on the sides*/
+header .top-bar li a {
+  padding:0.25rem 1rem;      /*.25 at the top 1 on the sides*/
   color:#fff;     /* white color to links */
 }
 
-header .menu li:first-child a {
+header .top-bar li {
+  position:relative;
+
+}
+
+
+header .top-bar li:first-child a {
   padding-left:0;
 }
 
-header .menu li:last-child a {
+header .top-bar li:last-child a {
   padding-right:0;
+}
+
+header .top-bar li .sub-menu {
+  display:none;  /* makes it so the "Our Team" doesn't show */
+  position:absolute;
+  top:100%;
+  left: 50%; /* Position the left edge of the sub-menu at the center of the parent */
+  transform: translateX(-50%); /* Shift the sub-menu back to the left by 50% of its width */
+  background:#fff;
+  box-shadow:1px 1px 10px rgba(0,0,0,0.1); 
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  width:150px;
+  border-radius:0.5rem;
+  z-index:999;
+
+}
+
+header .top-bar li .sub-menu a {
+  color:green;
+  padding:.25rem;
+  text-align:center; 
+  display:block; /* changes it from a list item to a block */
+  text-decoration:none; /* removes the underline */
+
+}
+
+
+header .top-bar li .sub-menu .menu-item:hover a {
+  color:#111;
+}
+
+header .top-bar .menu-item-has-children:hover .sub-menu{
+  display:block; /* with the hover option it will only display when user hovers cursor */
 }
 
 header .container {
@@ -33,4 +74,17 @@ header .container {
   justify-content:center; /* will align horizontally */ 
   align-items: center;  /* will align vertically */
   height:100%;
+}
+
+footer .bottom-bar {
+  list-style-type:none; /* will remove bullet points */
+  margin:0;
+  padding:0;
+  display:flex; /* makes the links side-by-side */
+  justify-content:center;
+}
+
+footer .bottom-bar li a {
+  padding:0.25rem 1rem;      /*.25 at the top 1 on the sides*/
+  color:black;     /* white color to links */
 }
