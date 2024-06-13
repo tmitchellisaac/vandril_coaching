@@ -1,0 +1,36 @@
+header {
+  background:#111;
+  width:100%;
+  height:100px;
+}
+
+.page-wrap {
+  padding:2rem 0;
+}
+
+header .menu {
+  list-style-type:none; /* will remove bullet points */
+  margin:0;
+  padding:;
+  display:flex; /* makes the links side-by-side */
+}
+
+header .menu li a {
+  padding:0.25rem 2rem;      /*.25 at the top 1 on the sides*/
+  color:#fff;     /* white color to links */
+}
+
+header .menu li:first-child a {
+  padding-left:0;
+}
+
+header .menu li:last-child a {
+  padding-right:0;
+}
+
+header .container {
+  display:flex;
+  justify-content:center; /* will align horizontally */ 
+  align-items: center;  /* will align vertically */
+  height:100%;
+}

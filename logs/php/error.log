@@ -1,0 +1,4 @@
+[11-Jun-2024 21:24:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 38
+[11-Jun-2024 21:24:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[11-Jun-2024 21:24:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[11-Jun-2024 21:27:52 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 38
