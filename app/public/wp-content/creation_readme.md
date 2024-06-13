@@ -583,4 +583,72 @@ register_nav_menus(     //registers some menus
   - Next, copy the code from `page.php` into the `single.php` file
   - This logic will allow the contect to be displayed and also the header and footer
   - Now, do the same for the `archive.php`
-  
+  - Then, to set up for the archive, create several posts
+
+  #### Create a new content logic for archive
+    - (so that the website will loop through)
+    - create `includes/section-archive.php`
+    - change the logic in `archive.php` to accept this new file
+    - aka--> `<?php get_template_part('includes/section', 'archive');?>`
+    - then add the title logic (so its displays each title in the 'loop')
+    - with some additional styling that adds bootstrap classes for cards and green buttons:
+    - and `the_excerpt()` replacing `the_content()`to only show an excerpt and then a styled link to take you to that page
+    - so anyway, your `section-archive.php` looks like this:
+
+```
+<?php if( have_posts() ): while( have_posts() ): the_post();?>
+
+
+<div class="card mb-3">
+
+  <div class="card-body">
+    <h3><?php the_title();?></h3>
+
+    <?php the_excerpt();?>
+
+    <a href="<?php the_permalink();?>" class= "btn btn-success">Read More</a> 
+
+  </div>
+</div>
+
+
+<?php endwhile; else: endif;?>
+
+```
+
+### Pagination
+  - we can use some easy, built in functionality from WP to limit number of posts (aka pagination)
+  - you can do --> previous or next link (show next three or previous three)
+  - you can do --> in a numbered format (show number and you click on the number)
+  - we will do the former first (previous/next)
+  - go to `archive.php` 
+  - outside the loop, add `<?php  previous_posts_link();?>`
+  - and `<?php  next_posts_link();?>`
+  - `archive.php` looks like this now:
+```
+<?php get_header();?>
+
+<section class="page-wrap">
+
+  <div class="container">
+        
+        <?php get_template_part('includes/section', 'archive');?>
+
+        <?php previous_posts_link();?>
+        <?php next_posts_link();?>
+        
+  </div>    
+</section>
+
+<?php get_footer();?>
+```
+  - but the pagination still doesn't show up on the website
+  - we need to tell WP that we want to limit the number of posts
+  - to do that, go to dashboard setting --> reading
+  - change to something like three posts at a time
+  - should work now
+  - (if you'd like...there is some complex code in the WP Dev Theme Handbook that will allow number pagination, copy and paste it)
+  - `archive.php` is the default but you can create others
+  - `category-blog.php` will be checked BEFORE `archive.php` in the WP Template Hierarchy
+
+
