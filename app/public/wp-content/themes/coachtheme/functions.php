@@ -73,19 +73,44 @@ function my_first_post_type()
 {
   $args = array(
     'labels' => array(
-      'name' => 'Services',
-      'singular_name' => 'Service',
-      'add_new_item'  => 'Add New Service',
-      'add_new'  => 'Add New Service',
-
+      'name'               => 'Services',
+      'singular_name'      => 'Service',
+      'add_new_item'       => 'Add New Service',
+      'add_new'            => 'Add New Service',
+      'new_item'           => 'New Service',
+      'edit_item'          => 'Edit Service',
+      'view_item'          => 'View Service',
+      'all_items'          => 'All Services',
+      'search_items'       => 'Search Services',
+      'parent_item_colon'  => 'Parent Services:',
+      'not_found'          => 'No services found.',
+      'not_found_in_trash' => 'No services found in Trash.'
     ),
+    'menu_icon' => 'dashicons-carrot',
+    'hierarchical' => true,
     'public' => true, // publicly accessible by user on FE/BE
     'has_archive' => true, // will have an archive (like a blog post does)
     'supports' => array( 'title', 'editor', 'thumbnail'), // what options this post has
-    'rewrite' => array('slug' => 'my-services') //rewrites the url to whatever you want (default would be services)
+    'rewrite' => array('slug' => 'services') //rewrites the url to whatever you want (default would be services)
 
   );
 
   register_post_type('services', $args);
 } 
 add_action('init','my_first_post_type');
+
+function my_first_taxonomy()
+{
+  $args = array(
+    'labels' => array(
+      'name'               => 'Types',
+      'singular_name'      => 'Type'
+
+    ),
+    'public' => true,
+    'hierarchical' => false,
+
+  );
+  register_taxonomy('types', array('services'), $args);
+}
+add_action('init', 'my_first_taxonomy');

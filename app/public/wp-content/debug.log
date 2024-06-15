@@ -48,3 +48,18 @@ Stack trace:
 #5 /Users/cardiganking/vandril_coaching/app/public/wp-admin/post-new.php(75): require('/Users/cardigan...')
 #6 {main}
   thrown in /Users/cardiganking/vandril_coaching/app/public/wp-includes/formatting.php on line 235
+[15-Jun-2024 20:59:02 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 109
+[15-Jun-2024 21:01:03 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 115
+[15-Jun-2024 21:02:32 UTC] PHP Parse error:  syntax error, unexpected token "=>" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 105
+[15-Jun-2024 21:02:33 UTC] PHP Parse error:  syntax error, unexpected token "=>" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 105
+[15-Jun-2024 21:02:33 UTC] PHP Parse error:  syntax error, unexpected token "=>" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 105
+[15-Jun-2024 22:34:52 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[15-Jun-2024 22:35:39 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[15-Jun-2024 22:35:43 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[15-Jun-2024 22:40:58 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[15-Jun-2024 22:40:59 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[15-Jun-2024 22:41:01 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[15-Jun-2024 22:42:41 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[15-Jun-2024 22:43:08 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[15-Jun-2024 22:43:31 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[15-Jun-2024 22:48:26 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
