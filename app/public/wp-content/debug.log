@@ -1,0 +1,50 @@
+[14-Jun-2024 16:02:48 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[14-Jun-2024 16:17:00 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 33
+[14-Jun-2024 16:17:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[14-Jun-2024 16:17:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[14-Jun-2024 16:19:01 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 33
+[14-Jun-2024 16:20:04 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 33
+[14-Jun-2024 16:20:06 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 33
+[14-Jun-2024 16:20:06 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 33
+[14-Jun-2024 16:20:24 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 33
+[14-Jun-2024 16:20:24 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 33
+[14-Jun-2024 16:23:20 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 33
+[14-Jun-2024 16:23:21 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 33
+[14-Jun-2024 16:23:22 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 33
+[14-Jun-2024 16:23:22 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 33
+[14-Jun-2024 16:31:55 UTC] PHP Parse error:  syntax error, unexpected token "function" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 39
+[14-Jun-2024 16:31:55 UTC] PHP Parse error:  syntax error, unexpected token "function" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 39
+[14-Jun-2024 18:18:21 UTC] PHP Deprecated:  File Theme without comments.php is deprecated since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[14-Jun-2024 18:18:32 UTC] PHP Deprecated:  File Theme without comments.php is deprecated since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[14-Jun-2024 20:40:20 UTC] PHP Deprecated:  File Theme without comments.php is deprecated since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[14-Jun-2024 20:43:14 UTC] PHP Deprecated:  File Theme without comments.php is deprecated since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[14-Jun-2024 20:54:56 UTC] PHP Deprecated:  File Theme without comments.php is deprecated since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[14-Jun-2024 20:55:01 UTC] PHP Deprecated:  File Theme without comments.php is deprecated since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[14-Jun-2024 20:58:12 UTC] PHP Deprecated:  File Theme without comments.php is deprecated since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[14-Jun-2024 20:58:14 UTC] PHP Deprecated:  File Theme without comments.php is deprecated since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[14-Jun-2024 20:58:19 UTC] PHP Deprecated:  File Theme without comments.php is deprecated since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[14-Jun-2024 20:58:41 UTC] PHP Deprecated:  File Theme without comments.php is deprecated since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[14-Jun-2024 21:02:58 UTC] PHP Deprecated:  File Theme without comments.php is deprecated since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
+[15-Jun-2024 01:18:18 UTC] PHP Warning:  gethostbyname(): Host name cannot be longer than 255 characters in /Users/cardiganking/vandril_coaching/app/public/wp-includes/http.php on line 561
+[15-Jun-2024 16:18:27 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 30
+[15-Jun-2024 16:18:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[15-Jun-2024 16:18:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[15-Jun-2024 16:18:30 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 30
+[15-Jun-2024 16:18:30 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 30
+[15-Jun-2024 16:18:30 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 30
+[15-Jun-2024 16:29:51 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 53
+[15-Jun-2024 16:31:52 UTC] PHP Parse error:  syntax error, unexpected token "," in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 54
+[15-Jun-2024 20:33:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 76
+[15-Jun-2024 20:35:52 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 76
+[15-Jun-2024 20:42:31 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "public", expecting ")" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 78
+[15-Jun-2024 20:42:58 UTC] PHP Warning:  Array to string conversion in /Users/cardiganking/vandril_coaching/app/public/wp-includes/formatting.php on line 1108
+[15-Jun-2024 20:42:58 UTC] PHP Fatal error:  Uncaught TypeError: preg_match_all(): Argument #2 ($subject) must be of type string, array given in /Users/cardiganking/vandril_coaching/app/public/wp-includes/formatting.php:235
+Stack trace:
+#0 /Users/cardiganking/vandril_coaching/app/public/wp-includes/formatting.php(235): preg_match_all('@\\[/?([^<>&/\\[\\...', Array, NULL)
+#1 /Users/cardiganking/vandril_coaching/app/public/wp-admin/menu-header.php(255): wptexturize(Array)
+#2 /Users/cardiganking/vandril_coaching/app/public/wp-admin/menu-header.php(298): _wp_menu_output(Array, Array)
+#3 /Users/cardiganking/vandril_coaching/app/public/wp-admin/admin-header.php(258): require('/Users/cardigan...')
+#4 /Users/cardiganking/vandril_coaching/app/public/wp-admin/edit-form-advanced.php(425): require_once('/Users/cardigan...')
+#5 /Users/cardiganking/vandril_coaching/app/public/wp-admin/post-new.php(75): require('/Users/cardigan...')
+#6 {main}
+  thrown in /Users/cardiganking/vandril_coaching/app/public/wp-includes/formatting.php on line 235

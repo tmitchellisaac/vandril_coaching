@@ -651,4 +651,55 @@ register_nav_menus(     //registers some menus
   - `archive.php` is the default but you can create others
   - `category-blog.php` will be checked BEFORE `archive.php` in the WP Template Hierarchy
 
+### Create Separate 'Template Section' for Blog Post
+  - this is because you want to customize a blog post (tags, date, author, image, etc)
+  - create `includes/section-blogcontent.php`
+  - paste in same logic from `includes/section-content.php`
+```
+<?php if( have_posts() ): while( have_posts() ): the_post();?>
 
+  <?php the_content();?>
+
+<?php endwhile; else: endif;?>
+```
+  - lets customize, go to `section-blogcontent.php`
+  - lets add the author of the post (must be inside the loop)
+  - add something like this: `<p>Posted By: <?php the_author();?></p>`
+  - you can add tags and category links if you would like, not gonna put it here though
+  - go to your `section-blogcontent.php` and add comment logic `<?php comments_template(); ?>`
+  - you can then style this how youd like using the html tags
+  - you can also add multiple pages to a single blog post with `wp_link_pages()`
+  
+### Blog Post Image
+  - give our theme the ability to add images
+  - allow thumbnail images in our them by adding in `functions.php` this: `add_theme_support('post-thumbnails');`
+  - now you can set a featured image for a blog post
+  - BUT we still need to add code to allow us to display the image
+  - so, in `single.php` add some logic above the title logic (if there's a thumbnail, display it)
+```
+<?php if(has_post_thumbnail() );?>
+
+  <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="img-fluid">
+
+<?php endif;?>
+```
+  - `the_post_thumbnail` method is displaying the image
+  - `alt` is making the alt-tag the title of the page
+  - and we assigned an `img-fluid` class plus some other classes as well
+  - Now, we need to resize the image in our `functions.php` file
+  - add a "Custom Image Sizes" area in `functions.php`
+  - add this method:
+  - `add_image_size('blog-large', 800, 400, false);`
+  - `add_image_size('blog-small', 300, 200, true);`
+  - the arguments for this method are (name, width, height, crop?)
+  - Install a plugin to resize all your images for you called "Force Regenerate Thumbnails"
+  - go to "Tools" and select "Force Regenerate Thumbnails" and click "regenerate all thumbnails"
+  - Now, we can go into our `page.php` and input an arugment for the `the_post_thumbnail_url('blog-large')` method
+  - This should resize your thumbnail on the blog post
+
+
+  ## Sidebars and Widgets
+
+  ### Set up the Sidebar/Widgets options on the Dashboard
+    - in `functions.php` add `add_theme_support('widgets)`
+    - 

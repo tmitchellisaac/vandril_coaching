@@ -1,6 +1,3 @@
-<!-- essentially a plugin that comes with the theme -->
-<!-- gonna start installing bootstrap and style sheets -->
-<!-- gonna link up our header and our footer to the main page  -->
 
 <?php
 
@@ -27,10 +24,10 @@ add_action('wp_enqueue_scripts', 'load_js');
 
 //Theme options
 add_theme_support('menus'); //adds the option "menu" in the dashboard
-
-
+add_theme_support('post-thumbnails'); // add images to our
+add_theme_support('widgets');
 // Menus
-register_nav_menus(     //registers some menus
+register_nav_menus(
   array(
     'top-menu' => 'Top Menu Location',
     'mobile-menu' => 'Mobile Menu Location',
@@ -41,5 +38,54 @@ register_nav_menus(     //registers some menus
 );
 
 
+// Custom Image Sizes
+add_image_size('blog-large' , 800, 400, false); // hard-crop
+add_image_size('blog-small', 300, 200, true); // hard-crop
 
 
+// Register Sidebars
+
+function my_sidebars()
+{
+  register_sidebar(
+    array(
+      'name' => 'page_sidebar',
+      'id' => 'page-sidebar',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' =>  '</h4>'
+    )
+  );
+  register_sidebar(
+    array(
+      'name' => 'blog_sidebar',
+      'id' => 'blog-sidebar',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' =>  '</h4>'
+    )
+  );
+};
+add_action('widgets_init', 'my_sidebars');
+
+
+//Custom Post Types
+
+function my_first_post_type()
+{
+  $args = array(
+    'labels' => array(
+      'name' => 'Services',
+      'singular_name' => 'Service',
+      'add_new_item'  => 'Add New Service',
+      'add_new'  => 'Add New Service',
+
+    ),
+    'public' => true, // publicly accessible by user on FE/BE
+    'has_archive' => true, // will have an archive (like a blog post does)
+    'supports' => array( 'title', 'editor', 'thumbnail'), // what options this post has
+    'rewrite' => array('slug' => 'my-services') //rewrites the url to whatever you want (default would be services)
+
+  );
+
+  register_post_type('services', $args);
+} 
+add_action('init','my_first_post_type');

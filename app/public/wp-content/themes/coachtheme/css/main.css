@@ -8,6 +8,69 @@ header {
   padding:2rem 0;
 }
 
+.widget {
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+.widget-title {
+  color:green;
+}
+
+.widget_nav_menu li a {
+  text-decoration:none;
+  color:#111;
+}
+
+.widget_nav_menu li {
+  color:red;
+  list-style-type:none;
+  text-decoration:none;
+}
+
+.widget_nav_menu li .sub-menu {
+  color:red;
+  list-style-type:none;
+  text-decoration:none;
+  display:none;  /* makes it so the "Our Team" doesn't show */
+
+}
+
+.widget_nav_menu li:hover .sub-menu {
+  display:block;
+  color:red;
+
+}
+.widget_block {
+  color:111;
+}
+
+.wp-block-latest-posts li
+ {
+  color:111;
+  list-style-type:none; /* Remove bullet points if they are list items */
+  padding-left:2rem
+}
+.widget_recent_entries li ,
+.widget_archive li,
+.widget_categories li {
+  color:111;
+  list-style-type: none; /* Remove bullet points if they are list items */
+}
+
+.widget_recent_entries a,
+.widget_archive a,
+.widget_categories a{
+  color:inherit;
+  list-style-type:none; /* Remove bullet points if they are list items */
+  text-decoration:none;
+  }
+
+  .wp-block-latest-posts {
+    padding:rem;
+  }
+
 header .top-bar {
   list-style-type:none; /* will remove bullet points */
   margin:0;
