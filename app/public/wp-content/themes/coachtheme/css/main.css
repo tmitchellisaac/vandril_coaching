@@ -190,3 +190,17 @@ footer .bottom-bar li a {
   justify-content: start; /* Align items to the start of the container */
   align-items: center; /* Center items vertically */
 }
+
+.contact-image {
+  display: flex; /* Add this to make it a flex container */
+  justify-content: center;
+  align-items: center; /* Use align-items to center items vertically */
+  padding-right:5rem;
+}
+
+.snoot {
+  height:450px
+}
+/* .google-maps {  not sure what to put here 
+}
+*/

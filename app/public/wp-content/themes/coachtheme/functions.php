@@ -118,7 +118,12 @@ add_action('init', 'my_first_taxonomy');
 // Google Maps API Key
 
 function my_acf_google_map_api( $api ){
-  $api['key'] = 'YOUR_GOOGLE_MAPS_API_KEY';
+  $api['key'] = 'AIzaSyDaZ6ruwibK1eEz6uXh9JMF5xxBvMw6h10';
   return $api;
 }
 add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
+
+function enqueue_google_maps() {
+  wp_enqueue_script('google-maps', 'https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY', array(), null, true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_google_maps');

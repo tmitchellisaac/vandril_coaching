@@ -18,14 +18,11 @@
         
           <li> Price: <?php the_field('price');?> </li>
           <li> Length: <?php the_field('length');?>  </li>
-          <li> Description: <?php the_field('description');?></li>
-          <li> Location: <?php the_field('location');?></li>
-          <li> How excited are you to meet Gabrielle?: <?php the_field('how_excited');?></li>
-
+          <li> Description: <?php the_field('description');?></li>  
         </ul>
       </div>
     </div>
-
+      
 
 
   </div>   

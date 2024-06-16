@@ -7,11 +7,10 @@
       <?php the_content();?>
     </div> 
     <div class="col-lg-6 d-flex justify-content-left">
-      empty
+      content
     </div>
   </div>
 </section>
 
 <?php endwhile; else: endif;?>
-
 

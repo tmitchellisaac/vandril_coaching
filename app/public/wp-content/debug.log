@@ -64,3 +64,5 @@ Stack trace:
 [15-Jun-2024 22:43:31 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
 [15-Jun-2024 22:48:26 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in /Users/cardiganking/vandril_coaching/app/public/wp-includes/functions.php on line 6078
 [15-Jun-2024 23:46:04 UTC] PHP Parse error:  syntax error, unexpected token "endwhile", expecting end of file in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/includes/section-archive.php on line 33
+[16-Jun-2024 06:16:42 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wpdb.php on line 1987
+[16-Jun-2024 06:16:42 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wpdb.php on line 1987
