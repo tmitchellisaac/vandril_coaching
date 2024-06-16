@@ -90,7 +90,7 @@ function my_first_post_type()
     'hierarchical' => true,
     'public' => true, // publicly accessible by user on FE/BE
     'has_archive' => true, // will have an archive (like a blog post does)
-    'supports' => array( 'title', 'editor', 'thumbnail'), // what options this post has
+    'supports' => array( 'title', 'editor', 'thumbnail', "custom-fields"), // what options this post has
     'rewrite' => array('slug' => 'services') //rewrites the url to whatever you want (default would be services)
 
   );
@@ -114,3 +114,11 @@ function my_first_taxonomy()
   register_taxonomy('types', array('services'), $args);
 }
 add_action('init', 'my_first_taxonomy');
+
+// Google Maps API Key
+
+function my_acf_google_map_api( $api ){
+  $api['key'] = 'YOUR_GOOGLE_MAPS_API_KEY';
+  return $api;
+}
+add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
