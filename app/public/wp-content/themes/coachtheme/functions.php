@@ -21,11 +21,18 @@ function load_js()
 }
 add_action('wp_enqueue_scripts', 'load_js');
 
+//Custom Fonts from Google
+function my_custom_fonts() {
+  wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap', false );
+}
+add_action( 'wp_enqueue_scripts', 'my_custom_fonts' );
+
 
 //Theme options
 add_theme_support('menus'); //adds the option "menu" in the dashboard
 add_theme_support('post-thumbnails'); // add images to our
 add_theme_support('widgets');
+
 // Menus
 register_nav_menus(
   array(

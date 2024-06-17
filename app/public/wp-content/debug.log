@@ -66,3 +66,104 @@ Stack trace:
 [15-Jun-2024 23:46:04 UTC] PHP Parse error:  syntax error, unexpected token "endwhile", expecting end of file in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/includes/section-archive.php on line 33
 [16-Jun-2024 06:16:42 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wpdb.php on line 1987
 [16-Jun-2024 06:16:42 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wpdb.php on line 1987
+[17-Jun-2024 00:04:28 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[17-Jun-2024 00:22:20 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 31
+[17-Jun-2024 00:22:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[17-Jun-2024 00:22:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/cardiganking/vandril_coaching/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[17-Jun-2024 00:22:25 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 32
+[17-Jun-2024 00:22:25 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 32
+[17-Jun-2024 00:22:26 UTC] PHP Parse error:  syntax error, unexpected identifier "register_nav_menus" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/functions.php on line 32
+[17-Jun-2024 02:44:10 UTC] PHP Warning:  Trying to access array offset on value of type int in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 16
+[17-Jun-2024 02:44:10 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/cardiganking/vandril_coaching/app/public/wp-includes/formatting.php on line 4494
+[17-Jun-2024 02:44:10 UTC] PHP Warning:  Trying to access array offset on value of type int in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 16
+[17-Jun-2024 02:46:25 UTC] PHP Warning:  Trying to access array offset on value of type int in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 16
+[17-Jun-2024 02:46:25 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/cardiganking/vandril_coaching/app/public/wp-includes/formatting.php on line 4494
+[17-Jun-2024 02:46:25 UTC] PHP Warning:  Trying to access array offset on value of type int in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 16
+[17-Jun-2024 02:46:26 UTC] PHP Warning:  Trying to access array offset on value of type int in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 16
+[17-Jun-2024 02:46:26 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/cardiganking/vandril_coaching/app/public/wp-includes/formatting.php on line 4494
+[17-Jun-2024 02:46:26 UTC] PHP Warning:  Trying to access array offset on value of type int in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 16
+[17-Jun-2024 03:28:58 UTC] PHP Warning:  Undefined variable $tenet_1 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 21
+[17-Jun-2024 03:28:58 UTC] PHP Warning:  Undefined variable $tenet_2 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 22
+[17-Jun-2024 03:28:58 UTC] PHP Warning:  Undefined variable $tenet_3 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 23
+[17-Jun-2024 03:31:35 UTC] PHP Warning:  Undefined variable $tenet_1 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 21
+[17-Jun-2024 03:31:35 UTC] PHP Warning:  Undefined variable $tenet_2 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 22
+[17-Jun-2024 03:31:35 UTC] PHP Warning:  Undefined variable $tenet_3 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 23
+[17-Jun-2024 03:31:36 UTC] PHP Warning:  Undefined variable $tenet_1 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 21
+[17-Jun-2024 03:31:36 UTC] PHP Warning:  Undefined variable $tenet_2 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 22
+[17-Jun-2024 03:31:36 UTC] PHP Warning:  Undefined variable $tenet_3 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 23
+[17-Jun-2024 04:09:53 UTC] PHP Warning:  Array to string conversion in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 39
+[17-Jun-2024 04:10:58 UTC] PHP Warning:  Array to string conversion in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 39
+[17-Jun-2024 04:10:59 UTC] PHP Warning:  Array to string conversion in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 39
+[17-Jun-2024 04:16:37 UTC] PHP Warning:  Array to string conversion in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 41
+[17-Jun-2024 04:22:04 UTC] PHP Warning:  Undefined array key "large" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 4
+[17-Jun-2024 04:22:15 UTC] PHP Warning:  Undefined array key "large" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 4
+[17-Jun-2024 04:22:59 UTC] PHP Warning:  Undefined array key "large" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 5
+[17-Jun-2024 04:23:52 UTC] PHP Warning:  Undefined array key "large" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 5
+[17-Jun-2024 04:24:08 UTC] PHP Warning:  Undefined array key "thumbnail" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 5
+[17-Jun-2024 04:24:31 UTC] PHP Warning:  Undefined array key ""thumbnail"" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 5
+[17-Jun-2024 04:24:44 UTC] PHP Warning:  Undefined array key "'thumbnail'" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 5
+[17-Jun-2024 04:25:27 UTC] PHP Fatal error:  Cannot use [] for reading in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 5
+[17-Jun-2024 04:25:28 UTC] PHP Fatal error:  Cannot use [] for reading in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 5
+[17-Jun-2024 04:25:39 UTC] PHP Warning:  Undefined array key "large" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 5
+[17-Jun-2024 04:44:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 7
+[17-Jun-2024 04:44:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 7
+[17-Jun-2024 04:44:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 7
+[17-Jun-2024 04:44:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 7
+[17-Jun-2024 04:44:44 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 7
+[17-Jun-2024 04:44:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 7
+[17-Jun-2024 04:48:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 12
+[17-Jun-2024 04:48:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 12
+[17-Jun-2024 04:48:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 13
+[17-Jun-2024 04:48:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 13
+[17-Jun-2024 04:48:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 14
+[17-Jun-2024 04:48:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 14
+[17-Jun-2024 04:48:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 15
+[17-Jun-2024 04:48:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 15
+[17-Jun-2024 04:48:44 UTC] PHP Warning:  Undefined variable $secondary_image in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 58
+[17-Jun-2024 04:49:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 12
+[17-Jun-2024 04:49:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 12
+[17-Jun-2024 04:49:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 13
+[17-Jun-2024 04:49:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 13
+[17-Jun-2024 04:49:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 14
+[17-Jun-2024 04:49:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 14
+[17-Jun-2024 04:49:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 15
+[17-Jun-2024 04:49:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 15
+[17-Jun-2024 04:52:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 12
+[17-Jun-2024 04:52:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 12
+[17-Jun-2024 04:52:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 13
+[17-Jun-2024 04:52:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 13
+[17-Jun-2024 04:52:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 14
+[17-Jun-2024 04:52:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 14
+[17-Jun-2024 04:52:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 15
+[17-Jun-2024 04:52:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 15
+[17-Jun-2024 04:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 12
+[17-Jun-2024 04:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 12
+[17-Jun-2024 04:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 13
+[17-Jun-2024 04:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 13
+[17-Jun-2024 04:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 14
+[17-Jun-2024 04:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 14
+[17-Jun-2024 04:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 15
+[17-Jun-2024 04:54:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 15
+[17-Jun-2024 04:55:16 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php:12
+Stack trace:
+#0 /Users/cardiganking/vandril_coaching/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/cardiganking/vandril_coaching/app/public/wp-blog-header.php(19): require_once('/Users/cardigan...')
+#2 /Users/cardiganking/vandril_coaching/app/public/index.php(17): require('/Users/cardigan...')
+#3 {main}
+  thrown in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 12
+[17-Jun-2024 04:56:38 UTC] PHP Warning:  Undefined variable $footer_photo_1 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 63
+[17-Jun-2024 04:56:38 UTC] PHP Warning:  Undefined variable $footer_photo_2 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 66
+[17-Jun-2024 04:56:38 UTC] PHP Warning:  Undefined variable $footer_photo_3 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 69
+[17-Jun-2024 04:56:38 UTC] PHP Warning:  Undefined variable $footer_photo_4 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 72
+[17-Jun-2024 04:57:11 UTC] PHP Warning:  Undefined variable $footer_photo_1 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 63
+[17-Jun-2024 04:57:11 UTC] PHP Warning:  Undefined variable $footer_photo_2 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 66
+[17-Jun-2024 04:57:11 UTC] PHP Warning:  Undefined variable $footer_photo_3 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 69
+[17-Jun-2024 04:57:11 UTC] PHP Warning:  Undefined variable $footer_photo_4 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 72
+[17-Jun-2024 04:57:29 UTC] PHP Warning:  Undefined variable $footer_photo_1 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 63
+[17-Jun-2024 04:57:29 UTC] PHP Warning:  Undefined variable $footer_photo_2 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 66
+[17-Jun-2024 04:57:29 UTC] PHP Warning:  Undefined variable $footer_photo_3 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 69
+[17-Jun-2024 04:57:29 UTC] PHP Warning:  Undefined variable $footer_photo_4 in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 72
+[17-Jun-2024 04:57:47 UTC] PHP Warning:  Undefined array key "small" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 12
+[17-Jun-2024 04:57:47 UTC] PHP Warning:  Undefined array key "small" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 13
+[17-Jun-2024 04:57:47 UTC] PHP Warning:  Undefined array key "small" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 14
+[17-Jun-2024 04:57:47 UTC] PHP Warning:  Undefined array key "small" in /Users/cardiganking/vandril_coaching/app/public/wp-content/themes/coachtheme/page-new-page.php on line 15

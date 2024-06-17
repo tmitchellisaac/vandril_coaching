@@ -11,8 +11,7 @@ Template Name: Contact Us
     <h1><?php the_title();?></h1>
     <div class="row">
       <div class="col-lg-6">
-      <?php echo do_shortcode('[wpforms id="145"]');?>
-
+      <?php echo do_shortcode('[forminator_form id="151"]');?>
       </div>
       <div class="col-lg-6">
         <?php get_template_part('includes/section', 'contactus');?>

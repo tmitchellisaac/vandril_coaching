@@ -138,7 +138,7 @@ header .top-bar li .sub-menu {
 }
 
 header .top-bar li .sub-menu a {
-  color:green;
+  color:black;
   padding:.25rem;
   text-align:center; 
   display:block; /* changes it from a list item to a block */
@@ -148,7 +148,7 @@ header .top-bar li .sub-menu a {
 
 
 header .top-bar li .sub-menu .menu-item:hover a {
-  color:#111;
+  color:green;
 }
 
 header .top-bar .menu-item-has-children:hover .sub-menu{
@@ -204,3 +204,57 @@ footer .bottom-bar li a {
 /* .google-maps {  not sure what to put here 
 }
 */
+
+.contact-us-content {
+  line-height:5;
+}
+
+.main-image-row {
+right:0;  
+
+}
+.main-image {
+  position:absolute;
+  right:0em;  
+  margin-right:3rem;
+
+  border-radius:1rem;
+}
+
+
+.main-image-image {
+  border-radius:1rem;
+ 
+}
+.main-left {
+ 
+}
+.main-left-name {
+  color:111;
+  font-size:90px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+.main-left-tenet {
+  font-size: 30px;
+  margin-left:2.5rem;
+}
+
+.main-left-quote {
+  font-size: 25px;
+  padding:2rem;
+  font-style:italic;
+}
+
+.main-left-button {
+  padding:2rem;
+  color:
+}
+
+.footer-images {
+  height:300px;
+  width:300px;
+  border-radius:0.5rem;
+  box-shadow:1px 1px 10px rgba(0,0,0,0.1); 
+
+}

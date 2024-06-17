@@ -2,8 +2,9 @@
 
 
 <section class="container">
-      <?php the_content();?>
-   
+  <div class="contact-us-content">
+    <?php the_content();?>
+  </div>
 </section>
 
 <?php endwhile; else: endif;?>
