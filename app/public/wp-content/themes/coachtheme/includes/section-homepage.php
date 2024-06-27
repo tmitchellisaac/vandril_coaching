@@ -14,6 +14,7 @@
       ?>
       <img src="<?php echo esc_url($image_url); ?>" alt="Description of the image" class="img-fluid">
     </div>
+    
   </div>
 </section>
 

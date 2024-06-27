@@ -1,7 +1,9 @@
 header {
-  background:#454545;
+  background:white;
   width:100%;
   height:100px;
+  font-family: 'new-zealand', sans-serif;
+
 }
 
 .page-wrap {
@@ -103,7 +105,7 @@ header .top-bar {
 
 header .top-bar li a {
   padding:0.25rem 1rem;      /*.25 at the top 1 on the sides*/
-  color:#fff;     /* white color to links */
+  color:#111;     /* white color to links */
 }
 
 header .top-bar li {
@@ -157,8 +159,8 @@ header .top-bar .menu-item-has-children:hover .sub-menu{
 
 header .container {
   display:flex;
-  justify-content:center; /* will align horizontally */ 
-  align-items: center;  /* will align vertically */
+  justify-content:center;
+  align-items: center; 
   height:100%;
 }
 
@@ -168,23 +170,37 @@ footer .bottom-bar {
   padding:0;
   display:flex; /* makes the links side-by-side */
   justify-content:center;
+  display:flex;
 }
 
 footer .bottom-bar li a {
   padding:0.25rem 1rem;      /*.25 at the top 1 on the sides*/
-  color:black;     /* white color to links */
+  color:black; 
+  font-size: 1.5rem; 
+  justify-content:space-around;
 }
+
+.bottom-lines {
+  font-size:20px;
+}
+
+
 
 .footer-title {
   color:white;
   font-size:50px;
   font-weight:crazy;
+  font-family: new-zealand, sans-serif;
+  text-decoration:underline;
+ 
 }
 
 .footer-title-bar {
-  background:#454545;
+  background:#111;
   color:white;
+  height:6em;
 }
+
 .card-body {
   display: flex;
   justify-content: start; /* Align items to the start of the container */
@@ -209,52 +225,215 @@ footer .bottom-bar li a {
   line-height:5;
 }
 
-.main-image-row {
-right:0;  
-
-}
-.main-image {
-  position:absolute;
-  right:0em;  
-  margin-right:3rem;
-
-  border-radius:1rem;
+.col-sm-12 {
+  flex: 0 1 auto;
 }
 
+.container-top-main{
+  display:flex;
+}
 
-.main-image-image {
-  border-radius:1rem;
- 
+.row-top-main {
+  display:flex;
+  flex-wrap:wrap;
+  margin-bottom:10rem; 
+ }
+  
+.col-top-main {
+  margin:20px;
+  display:flex;
+  justify-content:space-between;
+  height:100%;
+  flex-direction: column;
+  display:flex;
 }
-.main-left {
- 
-}
+
 .main-left-name {
-  color:111;
-  font-size:90px;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  flex: 0 1 100%;
+  font-size:10vw;
+  font-family: new-zealand, sans-serif;
+  text-align:left;
+  }
+  @media (max-width: 619px) {
+    .main-left-name {
+      text-align:center;
+      font-size:14vw;
+    }
+  }
 
-}
 .main-left-tenet {
-  font-size: 30px;
-  margin-left:2.5rem;
-}
+  font-family: new-zealand, sans-serif;
+  font-size:3vw;
+  margin-left:20px;
+  margin-bottom:4rem;
+
+  }
 
 .main-left-quote {
-  font-size: 25px;
-  padding:2rem;
-  font-style:italic;
-}
-
+  font-family: new-zealand, sans-serif;
+  font-size:2vw;
+  text-align:center;
+  margin-bottom:4rem;
+  }
+  
 .main-left-button {
-  padding:2rem;
-  color:
+  font-family:  'Times New Roman', Times, serif;
+  text-align:center;
+}
+    
+.main-image-image {
+  border-radius:1rem;
 }
 
-.footer-images {
-  height:300px;
-  width:300px;
+
+
+
+
+.divider {
+  height:10px;
+  }
+
+.container-second-main {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  flex: 0 1 100%;
+  
+  /* min-height: 300px;
+  margin-top:3rem; */
+  margin-bottom:10rem;
+}
+
+.row-second-main {
+  display: flex;
+  flex-grow:0;
+  flex-shrink:1;
+  flex-basis:auto;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  flex: 0 1 100%;
+
+  }
+  
+.col-second-main {
+  display: flex;
+  flex-grow:0;
+  flex-shrink:1;
+  flex-basis:auto;
+}
+
+.about-heading {
+  font-size:65px;
+  font-family: 'new-zealand', serif;
+  text-align:left;
+}
+
+.row-second-right {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* @media all and (max-width: 550px) {
+  .row-second-main {
+    justify-content:center;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .col-second-main {
+    justify-items:center;
+  }
+}
+
+@media all and (max-width: 993px) {
+  .about-heading {
+    text-align:center;
+  }
+} */
+
+
+  
+.black-bar {
+  background-color:#111;
   border-radius:0.5rem;
-  box-shadow:1px 1px 10px rgba(0,0,0,0.1); 
+  width:100%;
+  height:5px;
+  margin-bottom:1.75rem;
 
 }
+.short-bio {
+  font-family: 'new-zealand', sans-serif;
+  line-height:2.4rem;
+  text-align:center;
+}
+
+
+
+
+
+.container-three-main {
+  display:flex;
+  flex-grow:0;
+  flex-shrink:1;
+  flex-basis:auto;
+  justify-content:center;
+  margin-bottom:10rem;
+}
+
+.row-three-main {
+  display:flex;
+  flex-grow:0;
+  flex-shrink:1;
+  flex-basis:auto;
+  justify-content:center;
+
+}
+
+.col-three-main {
+  display:flex;
+  flex-grow:0;
+  flex-shrink:1;
+  flex-basis:25%;
+}
+
+.col-three-main img {
+  flex-grow:1;
+  flex-shrink:1;
+  flex-basis:auto;
+  border-radius:0.75rem;
+  width:300px;
+  height:300px;
+  margin:0.25rem;
+}
+
+
+/*
+.short-bio-title {
+  font-size: 50px;
+  color:111;
+  padding:0.5rem;
+  font-family: 'new-zealand', serif;
+}
+
+.short-bio {
+  color:black;
+  line-height: 35px;
+  font-family: 'new-zealand', serif;
+}
+
+.short-bio-right {
+  text-align:right;
+}
+
+.black-bar {
+  background-color:#111;
+  width:auto;
+  border-radius:0.5rem;
+  width:100%;
+  height:5px;
+  margin-right:-2rem;
+  margin-bottom:1rem;
+} */
