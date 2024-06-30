@@ -58,7 +58,7 @@
             
             <div class="row">
               <div class="main-left-button">
-                <a href="<?php the_field('contact_gabrielle'); ?>" class="btn btn-light btn-outline-dark btn-lg">Book an appointment</a>
+                <a href="<?php the_field('contact_gabrielle'); ?>" class="btn btn-dark btn-outline-light btn-lg">Book an appointment</a>
               </div>  
             </div>
 

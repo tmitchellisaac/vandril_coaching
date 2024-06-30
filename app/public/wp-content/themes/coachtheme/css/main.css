@@ -38,7 +38,13 @@ header {
 }
 
 .widget-title {
-  color:green;
+  color:#111;
+  font-family: 'new-zealand', sans-serif;
+
+}
+
+.widget_nav_menu {
+  text-align: left;
 }
 
 .widget_nav_menu li a {
@@ -95,21 +101,34 @@ header {
   .wp-block-latest-posts {
     padding:0;
   }
+  
+header .menu-top-bar-container {
+  display:flex;
+}
+
+
 
 header .top-bar {
+  justify-content:center;
   list-style-type:none; /* will remove bullet points */
   margin:0;
   padding:0;
-  display:flex; /* makes the links side-by-side */
+  display:flex;
+  flex-grow:1;
+  flex-shrink:1;
+  /* flex-basis:100%; */
+  flex-wrap:wrap;
+ 
 }
 
 header .top-bar li a {
-  padding:0.25rem 1rem;      /*.25 at the top 1 on the sides*/
-  color:#111;     /* white color to links */
+  padding:0.75rem 1rem;    /* .25 at the top 1 on the sides */
+  color:#111;   
 }
 
 header .top-bar li {
   position:relative;
+  margin-bottom:8px;  /* white color to links */
 
 }
 
@@ -157,11 +176,12 @@ header .top-bar .menu-item-has-children:hover .sub-menu{
   display:block; /* with the hover option it will only display when user hovers cursor */
 }
 
-header .container {
+header .container-fluid {
   display:flex;
   justify-content:center;
-  align-items: center; 
+  align-items:center; 
   height:100%;
+ 
 }
 
 footer .bottom-bar {
@@ -198,7 +218,12 @@ footer .bottom-bar li a {
 .footer-title-bar {
   background:#111;
   color:white;
-  height:6em;
+  min-height:6em;
+}
+@media (max-width: 463px) {
+  .footer-title-bar {
+    text-align:center;
+  }
 }
 
 .card-body {
@@ -264,7 +289,7 @@ footer .bottom-bar li a {
 .main-left-tenet {
   font-family: new-zealand, sans-serif;
   font-size:3vw;
-  margin-left:20px;
+  margin-left:40px;
   margin-bottom:4rem;
 
   }
@@ -277,8 +302,9 @@ footer .bottom-bar li a {
   }
   
 .main-left-button {
-  font-family:  'Times New Roman', Times, serif;
+  font-family:  'Verdana', sans-serif;
   text-align:center;
+  margin-bottom:20px;
 }
     
 .main-image-image {
@@ -299,9 +325,6 @@ footer .bottom-bar li a {
   justify-content:center;
   text-align:center;
   flex: 0 1 100%;
-  
-  /* min-height: 300px;
-  margin-top:3rem; */
   margin-bottom:10rem;
 }
 
@@ -336,26 +359,7 @@ footer .bottom-bar li a {
   align-items:center;
 }
 
-/* @media all and (max-width: 550px) {
-  .row-second-main {
-    justify-content:center;
-  }
-}
-
-@media all and (max-width: 550px) {
-  .col-second-main {
-    justify-items:center;
-  }
-}
-
-@media all and (max-width: 993px) {
-  .about-heading {
-    text-align:center;
-  }
-} */
-
-
-  
+ 
 .black-bar {
   background-color:#111;
   border-radius:0.5rem;
@@ -410,30 +414,88 @@ footer .bottom-bar li a {
 }
 
 
-/*
-.short-bio-title {
-  font-size: 50px;
-  color:111;
-  padding:0.5rem;
-  font-family: 'new-zealand', serif;
+@media (max-width: 991px) {
+.sidebar {
+  justify-content: center;
+  text-align: center;
+}
 }
 
-.short-bio {
-  color:black;
-  line-height: 35px;
-  font-family: 'new-zealand', serif;
+.sidebar {
+  justify-content: flex-start;
+  /* text-align: center; */
 }
 
-.short-bio-right {
-  text-align:right;
+
+
+@media (max-width: 619px) {
+  .main-left-name {
+    text-align:center;
+    font-size:14vw;
+  }
 }
 
-.black-bar {
-  background-color:#111;
-  width:auto;
-  border-radius:0.5rem;
-  width:100%;
-  height:5px;
-  margin-right:-2rem;
-  margin-bottom:1rem;
-} */
+/* @media (max-width: 991px) { */
+  .side-column {
+    display:none;
+    /* justify-content: center;
+    text-align: center; */
+  }
+  /* } */
+
+
+#menu-top-bar-1 {
+ font-size:80px;
+ font-family: 'new-zealand', sans-serif;
+ margin-left: -3rem;
+ text-align:left;
+}
+
+#menu-top-bar-1 li {
+  font-size:1rem;
+  font-family: 'new-zealand', sans-serif;
+  margin:10%;
+}
+
+.widgettitle {
+  font-size:2rem;
+  font-family: 'new-zealand', sans-serif;
+  line-height:1.5;
+  margin-bottom:30px;
+}
+
+.about-title {
+  font-family: 'new-zealand', sans-serif;
+  text-decoration:underline;
+  line-height:1.5;
+  font-size:50px;
+}
+@media (max-width: 769px) {
+  .about-title {
+  font-size:32px;
+    
+  }
+}
+
+.about-container {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+}
+
+.about-container {
+}
+
+
+
+.description-row {
+
+}
+
+.descr-item {
+}
+
+
+
+
+

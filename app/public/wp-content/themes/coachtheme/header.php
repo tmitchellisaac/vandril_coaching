@@ -12,7 +12,7 @@
 <body>
   
 <header>
-<div class="container">
+<div class="container-fluid">
   <?php
   wp_nav_menu(
     array(
