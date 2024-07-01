@@ -77,12 +77,56 @@ header {
 
 
 
-.wp-block-latest-posts li
- {
-  color:111;
+.wp-block-latest-posts__post-title {
+  color:#111;
   list-style-type:none; /* Remove bullet points if they are list items */
-  padding-left:2rem
+  padding-left:2rem;
+  text-decoration:none;
 }
+
+.wp-block-archives li a {
+  color:#111;
+  list-style-type:none; /* Remove bullet points if they are list items */
+  text-decoration:none;
+  margin-left:-20px;
+}
+
+.wp-block-latest-posts {
+  margin-left:-20px;
+}
+
+.wp-block-categories li a{
+  color:#111;
+  list-style-type:none; /* Remove bullet points if they are list items */
+  text-decoration:none;
+  margin-left:-20px;
+}
+
+#block-14 li {
+  display:none;
+}
+
+#block-14:hover li {
+  display:block;
+}
+
+#block-17 li {
+  display:none;
+}
+
+#block-17:hover li {
+  display:block;
+}
+
+#block-16 li {
+  display:none;
+}
+
+#block-16:hover li {
+  display:block;
+}
+
+
 .widget_recent_entries li ,
 .widget_archive li,
 .widget_categories li {
@@ -497,5 +541,23 @@ footer .bottom-bar li a {
 
 
 
+.second-sidebar {
+  font-family: 'new-zealand', sans-serif;
 
+}
+@media (max-width: 991px) {
+  .second-sidebar {
+    display:none;
+  }
+}
 
+.service-card {
+  display:flex;
+  justify-items:center;
+  align-items:center;
+}
+@media (max-width: 767px) {
+  .service-card {
+    flex-wrap:wrap;
+  }
+}
