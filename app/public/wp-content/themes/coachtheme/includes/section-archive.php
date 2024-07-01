@@ -8,7 +8,7 @@
     <div class="blog-content">
       <h3><?php the_title();?></h3>
       <?php the_excerpt();?>
-      <a href="<?php the_permalink();?>" class= "btn btn-success">Read More</a> 
+      <a href="<?php the_permalink();?>" class= "btn btn-dark">Read More</a> 
     </div>
   </div>
 </div>

@@ -276,23 +276,6 @@ footer .bottom-bar li a {
   align-items: center; /* Center items vertically */
 }
 
-.contact-image {
-  display: flex; /* Add this to make it a flex container */
-  justify-content: center;
-  align-items: center; /* Use align-items to center items vertically */
-  padding-right:5rem;
-}
-
-.snoot {
-  height:450px
-}
-/* .google-maps {  not sure what to put here 
-}
-*/
-
-.contact-us-content {
-  line-height:5;
-}
 
 .col-sm-12 {
   flex: 0 1 auto;
@@ -513,6 +496,7 @@ footer .bottom-bar li a {
   text-decoration:underline;
   line-height:1.5;
   font-size:50px;
+  text-align:center;
 }
 @media (max-width: 769px) {
   .about-title {
@@ -520,6 +504,13 @@ footer .bottom-bar li a {
     
   }
 }
+@media (max-width: 391px) {
+  .about-title {
+  font-size:21px;
+    
+  }
+}
+
 
 .about-container {
   display:flex;
@@ -527,19 +518,27 @@ footer .bottom-bar li a {
   justify-content:space-around;
 }
 
-.about-container {
+.descr_item {
+  margin-top:40px;
+  line-height:2.5;
+  font-family: 'Verdana', sans-serif;
+  font-size:1.1rem;
+  border: 1px solid #111;
+  border-radius:0.5rem;
+
+}
+.descr_item:hover {
+  color:#111;
+  margin-top:40px;
+  line-height:2.5;
+  font-family: 'Verdana', sans-serif;
+  font-size:1.1rem;
+  border: 3px solid #111;
+  border-radius:0.5rem;
+
 }
 
-
-
-.description-row {
-
-}
-
-.descr-item {
-}
-
-
+/*"Archive Sidebar CSS */
 
 .second-sidebar {
   font-family: 'new-zealand', sans-serif;
@@ -560,4 +559,86 @@ footer .bottom-bar li a {
   .service-card {
     flex-wrap:wrap;
   }
+}
+
+/* Individial Service */
+
+.service-car h1 {
+  font-family: 'new-zealand', sans-serif;
+  margin-top:10px;
+  margin-bottom:40px;
+  line-height:1.5;
+}
+
+.service-car .row {
+font-family: 'Verdana', sans-serif;
+line-height:2;
+}
+
+/* Contact Us*/
+
+.contact-us-cont {
+  display:flex;
+
+}
+
+.contact-us-content {
+  margin-top:8px;
+  font-size:1rem;
+  font-family: 'Verdana', sans-serif;
+  line-height: 3;
+  padding:20px;
+}
+
+.contact_title {
+  font-family: 'new-zealand', sans-serif;
+  margin-bottom:30px;
+}
+
+.contact-bottom-row {
+  margin-bottom:30px;
+
+}
+
+.contact-image {
+  display: flex; /* Add this to make it a flex container */
+  justify-content: center;
+  align-items: center; /* Use align-items to center items vertically */
+  padding-right:5rem;
+  text-align:center;
+}
+
+.snoot {
+  max-height:450px;
+  flex: 0 1 auto;
+  border-radius:0.5rem; 
+  margin:10px;
+}
+
+ .google-maps {
+  display:flex;
+}
+
+.responsive-iframe {
+  max-width: 600px;
+  max-height: 450px;
+  flex: 0 3 auto;
+  border-radius:0.5rem;
+  margin:10px;
+
+}
+
+.forminator-edit-module {
+  display:none;
+}
+
+.forminator-button-submit {
+  background-color:black !important;
+  border-radius:1rem !important;
+}
+
+.forminator-button-submit:hover {
+  background-color:white !important;
+  color:black !important;
+  border-radius:1rem !important;
 }
