@@ -11,11 +11,9 @@
       <div class="col-lg-6">
         <?php get_template_part('includes/section', 'blogcontent');?>   
       </div>
-    
 
       <div class="col-lg-6">
         <ul>
-        
           <li> Price: <?php the_field('price');?> </li>
           <li> Length: <?php the_field('length');?>  </li>
           <li> Description: <?php the_field('description');?></li>  

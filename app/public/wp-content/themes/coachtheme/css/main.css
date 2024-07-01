@@ -324,16 +324,16 @@ footer .bottom-bar li a {
   font-family: "new-zealand", sans-serif;
   text-align:left;
   }
-  @media (max-width: 619px) {
-    .main-left-name {
-      text-align:center;
-      font-size:14vw;
-    }
+@media (max-width: 619px) {
+  .main-left-name {
+    text-align:center;
+    font-size:14vw;
   }
+}
 
-  .main-left-name:hover {
-    text-shadow: 1px 1px 10px #111;
-    }
+.main-left-name:hover {
+  text-shadow: 1px 1px 10px #111;
+  }
 
 .main-left-tenet {
   font-family: "eb", serif;
@@ -343,17 +343,14 @@ footer .bottom-bar li a {
 
   }
 .main-left-tenet li:nth-child(1):hover {
-  padding-left:15px;
-  /* font-weight:bold; */
-
+  padding-left:25px;
   }
 .main-left-tenet li:nth-child(2):hover {
-  /* font-weight:bold; */
-  font-style:italic
+  font-style:italic;
+  letter-spacing:1.1px;
 }
 .main-left-tenet li:nth-child(3):hover {
-  /* font-weight:bold; */
-  letter-spacing:4px;
+  letter-spacing:6px;
     }
 
 
@@ -361,7 +358,7 @@ footer .bottom-bar li a {
   font-family: "new-zealand", sans-serif;
   font-size:23px;
   text-align:center;
-  margin-bottom:4rem;
+  margin-bottom:rem;
   }
   
 .main-left-button {
@@ -725,4 +722,17 @@ line-height:2;
 
 .next-previous-post a   {
   color:#111;
+}
+
+.service-title h1 {
+  font-family: 'ed', serif;
+}
+
+.service-content {
+  font-family: 'ed', serif;
+
+}
+.service-note {
+  font-family: 'ed', serif;
+
 }
