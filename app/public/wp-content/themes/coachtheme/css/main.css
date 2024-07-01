@@ -282,6 +282,10 @@ footer .bottom-bar li a {
   }
 }
 
+/* .footer-nav{
+  margin-bottom:50px;
+} */
+
 .card-body {
   display: flex;
   justify-content: start; /* Align items to the start of the container */
@@ -327,6 +331,10 @@ footer .bottom-bar li a {
     }
   }
 
+  .main-left-name:hover {
+    text-shadow: 1px 1px 10px #111;
+    }
+
 .main-left-tenet {
   font-family: "eb", serif;
   font-size:40px;
@@ -334,6 +342,20 @@ footer .bottom-bar li a {
   margin-bottom:4rem;
 
   }
+.main-left-tenet li:nth-child(1):hover {
+  padding-left:15px;
+  /* font-weight:bold; */
+
+  }
+.main-left-tenet li:nth-child(2):hover {
+  /* font-weight:bold; */
+  font-style:italic
+}
+.main-left-tenet li:nth-child(3):hover {
+  /* font-weight:bold; */
+  letter-spacing:4px;
+    }
+
 
 .main-left-quote {
   font-family: "new-zealand", sans-serif;
@@ -351,7 +373,9 @@ footer .bottom-bar li a {
 .main-image-image {
   border-radius:1rem;
 }
-
+.main-image-image:hover {
+  box-shadow: 1px 1px 1px #111;
+}
 
 
 
@@ -553,7 +577,6 @@ footer .bottom-bar li a {
   border: 3px solid #111;
   border-radius:3rem;
   border-style:none;
-
 }
 
 /*"Archive Sidebar CSS */
@@ -602,10 +625,10 @@ line-height:2;
 
 .contact-us-content {
   margin-top:8px;
-  font-size:1rem;
-  font-family: 'Verdana', sans-serif;
+  font-size:20px;
+  font-family: 'eb', serif;
   line-height: 3;
-  padding:20px;
+  padding:10px;
 }
 
 .contact_title {
@@ -669,8 +692,8 @@ line-height:2;
 .photo-coll {
   justify-content:center;
   display:flex;
-  /* max-width:150%; */
 } 
+
 
 .photo-image {
   display:flex;
@@ -680,10 +703,26 @@ line-height:2;
   flex: 1 1 auto;
   margin-bottom:50px;
 }
+.photo-image:hover {
+  display:flex;
+  border-radius:0.5rem;
+  margin:10px;
+  max-width:150%;
+  flex: 1 1 auto;
+  margin-bottom:50px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 
+}
 .photos-title {
   font-family: 'new-zealand', sans-serif;
   text-align:center;
   margin-bottom:100px;
   font-size:80px;
+}
+.photos-title:hover {
+  text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.next-previous-post a   {
+  color:#111;
 }

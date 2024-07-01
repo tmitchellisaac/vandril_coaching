@@ -16,10 +16,7 @@
         <a href="<?php the_permalink();?>" class= "btn button-annoying btn-dark">Read More</a> 
       <!-- </div> -->
     </div>
-  
-  
-  
-  
+
   </div>
 </div>
 
