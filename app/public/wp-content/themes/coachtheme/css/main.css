@@ -1,11 +1,6 @@
-header {
-  background:white;
-  width:100%;
-  height:100px;
-  font-family: 'eb', serif;
-  font-size:23px;
 
-}
+
+/* Services */
 
 .page-wrap {
   padding:2rem 0;
@@ -13,11 +8,9 @@ header {
 
 .card-body {
   display: flex;
-  justify-content: start; /* Align items to the start of the container */
-  align-items: center; /* Center items vertically */
+  justify-content: start;
+  align-items: center;
 }
-
-
 
 .blog-content {
  font-family: 'eb', serif;
@@ -25,23 +18,10 @@ header {
 
 .blog-content h3 {
  font-size:38px;
-
 }
-
-.blog-content a {
-  
-}
-/* .custom-btn-sm {
-  padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  border-radius: .5rem;
-  width:170px;
-} */
 
 .button-annoying {
   text-align:center;
-  
 }
 
 .widget {
@@ -74,33 +54,28 @@ header {
   color:red;
   list-style-type:none;
   text-decoration:none;
-  display:none;  /* makes it so the "Our Team" doesn't show */
-
+  display:none;
 }
 
 .widget_nav_menu li:hover .sub-menu {
   display:block;
   color:red;
-
 }
 .widget_block {
   color:111;
 }
 
-
-
 .wp-block-latest-posts__post-title {
   color:#111;
-  list-style-type:none; /* Remove bullet points if they are list items */
+  list-style-type:none;
   padding-left:2rem;
   text-decoration:none;
   font-family: 'eb', serif;
-  
 }
 
 .wp-block-archives li a {
   color:#111;
-  list-style-type:none; /* Remove bullet points if they are list items */
+  list-style-type:none;
   text-decoration:none;
   margin-left:-20px;
 }
@@ -111,7 +86,7 @@ header {
 
 .wp-block-categories li a{
   color:#111;
-  list-style-type:none; /* Remove bullet points if they are list items */
+  list-style-type:none;
   text-decoration:none;
   margin-left:-20px;
 }
@@ -145,51 +120,57 @@ header {
 .widget_archive li,
 .widget_categories li {
   color:111;
-  list-style-type: none; /* Remove bullet points if they are list items */
+  list-style-type: none;
 }
 
 .widget_recent_entries a,
 .widget_archive a,
 .widget_categories a{
   color:inherit;
-  list-style-type:none; /* Remove bullet points if they are list items */
+  list-style-type:none;
   text-decoration:none;
-  }
+}
 
-  .wp-block-latest-posts {
-    padding:0;
-  }
+.wp-block-latest-posts {
+  padding:0;
+}
   
+
+
+/* Header */
+
+header {
+  background:white;
+  width:100%;
+  height:100px;
+  font-family: 'eb', serif;
+  font-size:23px;
+}
+
 header .menu-top-bar-container {
   display:flex;
 }
 
-
-
 header .top-bar {
   justify-content:center;
-  list-style-type:none; /* will remove bullet points */
+  list-style-type:none;
   margin:0;
   padding:0;
   display:flex;
   flex-grow:1;
   flex-shrink:1;
-  /* flex-basis:100%; */
   flex-wrap:wrap;
- 
 }
 
 header .top-bar li a {
-  padding:0.75rem 1rem;    /* .25 at the top 1 on the sides */
+  padding:0.75rem 1rem;
   color:#111;   
 }
 
 header .top-bar li {
   position:relative;
-  margin-bottom:8px;  /* white color to links */
-
+  margin-bottom:8px;
 }
-
 
 header .top-bar li:first-child a {
   padding-left:0;
@@ -200,11 +181,11 @@ header .top-bar li:last-child a {
 }
 
 header .top-bar li .sub-menu {
-  display:none;  /* makes it so the "Our Team" doesn't show */
+  display:none;
   position:absolute;
   top:100%;
-  left: 50%; /* Position the left edge of the sub-menu at the center of the parent */
-  transform: translateX(-50%); /* Shift the sub-menu back to the left by 50% of its width */
+  left: 50%;
+  transform: translateX(-50%);
   background:#fff;
   box-shadow:1px 1px 10px rgba(0,0,0,0.1); 
   margin:0;
@@ -213,16 +194,14 @@ header .top-bar li .sub-menu {
   width:150px;
   border-radius:0.5rem;
   z-index:999;
-
 }
 
 header .top-bar li .sub-menu a {
   color:black;
   padding:.25rem;
   text-align:center; 
-  display:block; /* changes it from a list item to a block */
-  text-decoration:none; /* removes the underline */
-
+  display:block;
+  text-decoration:none;
 }
 
 
@@ -231,7 +210,7 @@ header .top-bar li .sub-menu .menu-item:hover a {
 }
 
 header .top-bar .menu-item-has-children:hover .sub-menu{
-  display:block; /* with the hover option it will only display when user hovers cursor */
+  display:block;
 }
 
 header .container-fluid {
@@ -239,20 +218,19 @@ header .container-fluid {
   justify-content:center;
   align-items:center; 
   height:100%;
- 
 }
 
 footer .bottom-bar {
-  list-style-type:none; /* will remove bullet points */
+  list-style-type:none;
   margin:0;
   padding:0;
-  display:flex; /* makes the links side-by-side */
+  display:flex;
   justify-content:center;
   display:flex;
 }
 
 footer .bottom-bar li a {
-  padding:0.25rem 1rem;      /*.25 at the top 1 on the sides*/
+  padding:0.25rem 1rem;
   color:black; 
   font-size: 1.5rem; 
   justify-content:space-around;
@@ -268,7 +246,6 @@ footer .bottom-bar li a {
   font-weight:crazy;
   font-family: 'new-zealand', sans-serif;
   text-decoration:underline;
- 
 }
 
 .footer-title-bar {
@@ -282,14 +259,10 @@ footer .bottom-bar li a {
   }
 }
 
-/* .footer-nav{
-  margin-bottom:50px;
-} */
-
 .card-body {
   display: flex;
-  justify-content: start; /* Align items to the start of the container */
-  align-items: center; /* Center items vertically */
+  justify-content: start;
+  align-items: center;
 }
 
 
@@ -307,7 +280,7 @@ footer .bottom-bar li a {
   display:flex;
   flex-wrap:wrap;
   margin-bottom:10rem; 
- }
+}
   
 .col-top-main {
   margin:20px;
@@ -323,7 +296,7 @@ footer .bottom-bar li a {
   font-size:10vw;
   font-family: "new-zealand", sans-serif;
   text-align:left;
-  }
+}
 @media (max-width: 619px) {
   .main-left-name {
     text-align:center;
@@ -333,7 +306,7 @@ footer .bottom-bar li a {
 
 .main-left-name:hover {
   text-shadow: 1px 1px 10px #111;
-  }
+}
 
 .main-left-tenet {
   font-family: "eb", serif;
@@ -341,25 +314,26 @@ footer .bottom-bar li a {
   margin-left:40px;
   margin-bottom:4rem;
 
-  }
+}
+
 .main-left-tenet li:nth-child(1):hover {
   padding-left:25px;
-  }
+}
+
 .main-left-tenet li:nth-child(2):hover {
   font-style:italic;
   letter-spacing:1.1px;
 }
 .main-left-tenet li:nth-child(3):hover {
   letter-spacing:6px;
-    }
-
+}
 
 .main-left-quote {
   font-family: "new-zealand", sans-serif;
   font-size:23px;
   text-align:center;
   margin-bottom:rem;
-  }
+}
   
 .main-left-button {
   font-family:  'Verdana', sans-serif;
@@ -373,9 +347,6 @@ footer .bottom-bar li a {
 .main-image-image:hover {
   box-shadow: 1px 1px 1px #111;
 }
-
-
-
 
 .divider {
   height:10px;
@@ -399,8 +370,7 @@ footer .bottom-bar li a {
   align-items:center;
   justify-content:center;
   flex: 0 1 100%;
-
-  }
+}
   
 .col-second-main {
   display: flex;
@@ -421,7 +391,6 @@ footer .bottom-bar li a {
   align-items:center;
 }
 
- 
 .black-bar {
   background-color:#111;
   border-radius:0.5rem;
@@ -438,10 +407,6 @@ footer .bottom-bar li a {
   font-size:1.5rem;
 }
 
-
-
-
-
 .container-three-main {
   display:flex;
   flex-grow:0;
@@ -457,7 +422,6 @@ footer .bottom-bar li a {
   flex-shrink:1;
   flex-basis:auto;
   justify-content:center;
-
 }
 
 .col-three-main {
@@ -478,6 +442,8 @@ footer .bottom-bar li a {
 }
 
 
+/* Sidebar */
+
 @media (max-width: 991px) {
 .sidebar {
   justify-content: center;
@@ -487,7 +453,6 @@ footer .bottom-bar li a {
 
 .sidebar {
   justify-content: flex-start;
-  /* text-align: center; */
 }
 
 
@@ -499,13 +464,9 @@ footer .bottom-bar li a {
   }
 }
 
-/* @media (max-width: 991px) { */
-  .side-column {
-    display:none;
-    /* justify-content: center;
-    text-align: center; */
-  }
-  /* } */
+.side-column {
+  display:none;
+}
 
 
 #menu-top-bar-1 {
@@ -638,9 +599,9 @@ line-height:2;
 }
 
 .contact-image {
-  display: flex; /* Add this to make it a flex container */
+  display: flex;
   justify-content: center;
-  align-items: center; /* Use align-items to center items vertically */
+  align-items: center;
   padding-right:5rem;
   text-align:center;
 }
@@ -691,7 +652,6 @@ line-height:2;
   display:flex;
 } 
 
-
 .photo-image {
   display:flex;
   border-radius:0.5rem;
@@ -700,6 +660,7 @@ line-height:2;
   flex: 1 1 auto;
   margin-bottom:50px;
 }
+
 .photo-image:hover {
   display:flex;
   border-radius:0.5rem;
@@ -708,14 +669,15 @@ line-height:2;
   flex: 1 1 auto;
   margin-bottom:50px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
-
 }
+
 .photos-title {
   font-family: 'new-zealand', sans-serif;
   text-align:center;
   margin-bottom:100px;
   font-size:80px;
 }
+
 .photos-title:hover {
   text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
@@ -730,9 +692,7 @@ line-height:2;
 
 .service-content {
   font-family: 'ed', serif;
-
 }
 .service-note {
   font-family: 'ed', serif;
-
 }
