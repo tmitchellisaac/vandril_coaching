@@ -1,4 +1,5 @@
 <?php get_header();?>
+<?php $service= get_field('service_description');?>
 
 <section class="page-wrap">
   <div class="container service-car">
@@ -8,7 +9,7 @@
     <?php endif;?>
     <div class="row"> 
       <div class="col-lg-6">
-        <?php get_template_part('includes/section', 'blogcontent');?>   
+        <?php get_template_part('includes/section', 'blogcontent');?> 
       </div>
       <div class="col-lg-6">
         <ul>
