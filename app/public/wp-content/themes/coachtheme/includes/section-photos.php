@@ -12,11 +12,9 @@
 <?php $img_5 = $image_5['sizes']['medium'];?>
 <?php $img_6 = $image_6['sizes']['medium'];?>
 
-
 <?php if( have_posts() ): while( have_posts() ): the_post();?>
 
 <?php endwhile; else: endif;?>
-
 
   <div class="row photo-row">
     <div class="col-lg-4 col-md-6 col-sm-12 photo-coll">

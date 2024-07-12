@@ -696,3 +696,11 @@ line-height:2;
 .service-note {
   font-family: 'ed', serif;
 }
+
+/* 404 page*/
+
+.four {
+  font-size: 50px;
+  font-family: 'new-zealand', sans-serif;
+  color:#111;
+}
